@@ -1,0 +1,64 @@
+Features of the Online Library Website
+
+Overview
+
+The Online Library website provides a sleek and user-friendly interface for book enthusiasts to search for and explore various books. The website consists of a homepage with a search function and individual pages for each book. Below is a detailed description of all the features used in the website.
+
+Features
+
+1. Responsive Design
+The website is designed to be responsive, ensuring it looks good on all devices, including desktops, tablets, and mobile phones. This is achieved through the use of flexible layouts, CSS media queries, and responsive units.
+
+2. Header
+- Description: The header section includes the title of the website and a search input field.
+- Technologies Used: HTML, CSS
+- Details: 
+  - The header has a background color and padding to give it a distinct look.
+  - It includes a title (`<h1>`) and a search input field (`<input>`).
+
+3. Search Functionality
+- Description: Users can search for books using the search input field.
+- Technologies Used: JavaScript
+- Details:
+  - An event listener is attached to the search input field, which filters the book list based on user input.
+  - The filtering is case-insensitive and hides non-matching books dynamically.
+
+4. Book List
+- Description: A list of books available in the library, each linking to a detailed page about the book.
+- Technologies Used: HTML, CSS
+- Details:
+  - The book list is an unordered list (`<ul>`) with list items (`<li>`) containing links (`<a>`) to individual book pages.
+  - Each list item has a hover effect to enhance user interaction.
+
+5. Individual Book Pages
+- Description: Each book has its own dedicated page with detailed information.
+- Technologies Used: HTML, CSS
+- Details:
+  - Each book page includes the book title, author, genre, publication year, and a description.
+  - A "Back to Library" link is provided to navigate back to the homepage.
+
+6. Footer
+- Description: The footer section includes a copyright notice.
+- Technologies Used: HTML, CSS
+- Details:
+  - The footer has a background color, padding, and is fixed at the bottom of the page.
+  - It contains a paragraph (`<p>`) with the copyright information.
+
+7. Advanced Styling
+- Description: The website uses advanced CSS styling for a modern and polished look.
+- Technologies Used: CSS
+- Details:
+  - Linear gradient background for the body.
+  - Box shadows for the container and book list items.
+  - Hover effects for the book list items and back link.
+  - Transition effects for smoother interactions.
+
+8. Flexbox Layout
+- Description: Flexbox is used to create flexible and responsive layouts.
+- Technologies Used: CSS
+- Details:
+  - The body is styled using flexbox to center the container vertically and horizontally.
+  - The main content area uses flexbox to align items properly.
+
+Conclusion
+The Online Library website combines various web development technologies and techniques to provide a seamless and engaging user experience. The features mentioned above contribute to the overall functionality and aesthetics of the website, making it easy to navigate and visually appealing.
